@@ -1,0 +1,12 @@
+{
+"utility": {
+    "back": "BACK"},
+"guide": "HOW DOES IT WORK?\nWhen you will press the PLAY button, you will have to face a first or second grade equation based on what you chose. Yout resolution time will be compared with the resolution time of the same equation by the player with the nearest elo to yours.\n\nHow does the elo work?\nIf you lose, your elo will decrease based on this scheme where x is the enemy's elo and y is your's elo:\nx > 100 + y: -6 elo\nx > 50 + y < 100 + y: -9 elo\nx > y < 50 + y: -12 elo\nx < y > 50 - y: -21 elo\nx < 50 - y > 100 - y: -29 elo\nx < 100 - y: -38 elo\n\nAt the same time, if you win your elo will encrease based on this scheme where x represents your's elo and y the enemy's elo\nx > 100 + y: +6 di elo\nx > 50 + y < 100 + y: +9 di elo\nx > y < 50 + y: +12 di elo\nx < y > 50 - y: +21 di elo\nx < 50 - y > 100 - y: +29 di elo\nx < 100 - y: +38 di elo",
+"welcome": {
+    "msg": "Welcome to this bot!\n\nSolve first or second grade equations as fast as you can, earn elo, get higher ranks and climb the leaderboard!",
+    "play": "🎮 PLAY",
+    "leaderboards": "🏆 LEADERBOARDS",
+    "guide": "⁉️ GUIDE",
+    "train": "🎮 TRAIN YOURSELF",
+    "channel": "📣 CHANNEL"}
+}

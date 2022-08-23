@@ -1,0 +1,12 @@
+{
+"utility": {
+    "back": "INDIETRO"},
+"guide": "COME FUNZIONA?\nQuando premerai sul tasto GIOCA dovrai affrontare un equazione di primo o secondo grado in base a quello che hai scelto. Il tuo tempo di risoluzione verra' confrontato con il tempo di risoluzione della stessa equazione del giocatore con l'elo piu' vicino al tuo.\n\nCome funziona l'elo?\nSe perderai un confronto, il tuo elo diminuira' secondo una precisa scala dove x rappresenta l'elo avversario e y il tuo elo:\nx > 100 + y: -6 di elo\nx > 50 + y < 100 + y: -9 di elo\nx > y < 50 + y: -12 di elo\nx < y > 50 - y: -21 di elo\nx < 50 - y > 100 - y: -29 di elo\nx < 100 - y: -38 di elo\n\nAllo stesso modo, se vincerai il tuo elo aumentera' secondo una scala precisa dove x rappresenta il tuo elo e y l'elo avversatio:\nx > 100 + y: +6 di elo\nx > 50 + y < 100 + y: +9 di elo\nx > y < 50 + y: +12 di elo\nx < y > 50 - y: +21 di elo\nx < 50 - y > 100 - y: +29 di elo\nx < 100 - y: +38 di elo",
+"welcome": {
+    "msg": "Benvenuto in questo bot!\n\nRisolvi equazioni di primo o secondo grado nel minor tempo possibile, guadagna elo, sali di rank e scala la classifica!",
+    "play": "🎮 GIOCA",
+    "leaderboards": "🏆 CLASSIFICA",
+    "guide": "⁉️ GUIDA",
+    "train": "🎮 ALLENAMENTO in SOLITARIA",
+    "channel": "📣 CANALE"}
+}
